@@ -9,13 +9,23 @@
 // 반복문 (537p 예습)
 
 let num1 = prompt("숫자를 입력하세요");
-
 let num2 = prompt("숫자를 입력하세요");
 
 if (num1 > num2) {
-  alert("두 숫자 중에서 큰 값은 " + num1 + " 입니다.");
+  console.log("두 숫자 중에서 큰 값은 " + num1 + " 입니다.");
 } else if (num2 > num1) {
-  alert("두 숫자 중에서 큰 값은 " + num2 + " 입니다.");
+  console.log("두 숫자 중에서 큰 값은 " + num2 + " 입니다.");
 } else {
-  alert("두 숫자가 같습니다.");
+  console.log("두 숫자가 같습니다.");
+}
+
+let result1 = 40 + Math.floor(Math.random() * 31);
+let result2 = 40 + Math.floor(Math.random() * 31);
+
+if (result1 > result2) {
+  console.log("두 숫자 중에서 큰 값은 " + result1 + " 입니다.");
+} else if (result2 > result1) {
+  console.log("두 숫자 중에서 큰 값은 " + result2 + " 입니다.");
+} else {
+  console.log("두 숫자가 같습니다.");
 }
