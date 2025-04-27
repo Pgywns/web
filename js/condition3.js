@@ -4,23 +4,23 @@ let result = 30 + Math.floor(Math.random() * 71);
 console.log(result);
 
 if (result >= 95) {
-  alert(result + " A+");
+  console.log(result + " A+");
 } else if (result >= 90 ) {
-  alert(result + " A");
+  console.log(result + " A");
 } else if (result >= 85) {
-  alert(result + " B+");
+  console.log(result + " B+");
 } else if (result >= 80) {
-  alert(result + " B");
+  console.log(result + " B");
 } else if (result >= 75) {
-  alert(result + " C+");
+  console.log(result + " C+");
 } else if (result >= 70) {
-  alert(result + " C");
+  console.log(result + " C");
 } else if (result >= 65) {
-  alert(result + " D+");
+  console.log(result + " D+");
 } else if (result >= 60) {
-  alert(result + " D");
+  console.log(result + " D");
 } else {
-  alert(result + " F");
+  console.log(result + " F");
 }
 
 // if (result >= 60) {
