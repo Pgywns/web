@@ -8,8 +8,8 @@
 
 // 반복문 (537p 예습)
 
-let num1 = prompt("숫자를 입력하세요");
-let num2 = prompt("숫자를 입력하세요");
+let num1 = parseInt(prompt("숫자를 입력하세요"));
+let num2 = parseInt(prompt("숫자를 입력하세요"));
 
 if (num1 > num2) {
   console.log("두 숫자 중에서 큰 값은 " + num1 + " 입니다.");
