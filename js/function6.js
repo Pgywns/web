@@ -24,6 +24,7 @@ let friends = [
   {name: "맹구", age: 21, phone: "010-5678-5678"},
   {name: "훈이", age: 22, phone: "010-4321-8765"}
 ];
+
 let max = 0;
 
 for (let i = 0; i < friends.length; i++) {
