@@ -9,23 +9,27 @@
     #userValue {
       color: red;
     }
-    td {
-      line-height: 37.5px;
-    }
   </style>
 </head>
 
 <body>
   <div id="show">
-    <input type="text" id="userValue" value="박효준">
-    <p>
+    성별: <input type="text" id="userValue">
+    <button class="btn btn-primary" id="searchBtn">조회</button>
+    <select id="selectGender" class="form-control">
+      <option value="All">전체</option>
+      <option value="Male">남자</option>
+      <option value="Female">여자</option>
+    </select>
+    <!-- <p>
       <input type="text" id="num1" value="30"> +
       <input type="text" id="num2" value="17"> =
       <input type="text" id="result">
-    </p>
+    </p> -->
   </div>
 
-  <script src="js/function3.js"></script>
+  <script src="js/jsonData.js"></script>
+  <script src="js/function8.js"></script>
 
 </body>
 
